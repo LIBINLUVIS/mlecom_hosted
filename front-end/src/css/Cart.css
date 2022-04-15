@@ -1,0 +1,103 @@
+.cartproducts{
+    display: flex;
+    flex-direction: column;
+}
+.checkout-card{
+    background-color: rgb(231, 230, 224);
+    width:325px;
+    height: 200px; 
+    display: flex; 
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+    justify-content: space-around;
+} 
+.outer-box-manage-orders{
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+   
+}
+.checkout-text{
+   font-size: 25px;
+   font-weight: 200;
+}
+.ordered-box{
+    background-color: white;
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+    
+}
+.ordered-products{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.stepper{
+    margin-left: 272px;
+    display: flex;
+    margin-top: 30px;
+}
+.order-content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.order-title{
+    display: flex;
+
+    
+}
+.order_tit{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.not-order{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    
+}
+.no-order-title{
+    font-size: 25px;
+    font-weight: 200;
+}
+.progress-order{
+    display: flex;
+    justify-items: center;
+    margin: auto;
+}
+@media screen and (max-width: 480px) {
+    #mobviewcart{
+      display: flex;
+      flex-direction: column;
+    }
+    #mobviewbtns{
+        padding-top: 20px;
+        padding-right: 25px;
+        
+    }
+    .mobvieworderstatus{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .ordered-box{
+        width: auto;
+    }
+    .stepper{
+        margin-left:0px
+    }
+    .order-content{
+        padding: 0px;
+    }
+ }

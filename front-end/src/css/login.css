@@ -1,0 +1,20 @@
+.login_progressbar{
+    background-color:#fbbf24;
+    width:200px;
+    height:50px;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.alert{
+    margin: 20px;
+}
+@media screen and (max-width: 480px) { 
+    #mobviewlogin{
+      width: 350px;
+      
+    }
+}
+

@@ -1,0 +1,75 @@
+.row{
+    /* margin-left: 20px; */
+    color: black;
+}
+.rowbooks{
+    margin-top: 100px;
+}
+.posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.img_books{
+    margin: 5px;
+    height: 300px;
+    width: 200px;
+}
+.trending_tit{
+    font-size: 30px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    color: white;
+}
+.trending_box{
+    margin-bottom: 10px;
+}
+.trending_books{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 205px;
+    height: 500px;
+    margin-left: 50px;
+    color: white;
+} 
+.trending_icons{
+    display: flex;
+    margin-top: 10px;    
+    align-items: center;
+   
+}
+.carticon{
+    margin-left: 110px;
+    color: black;
+    
+}
+.trending_skeleton{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.skelton-box{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: white;
+}
+.store-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.storebooks{
+    margin-left: 20px;
+}
+.rated_outerbox1{
+    padding-left: 30px;
+}

@@ -1,0 +1,59 @@
+@media screen and (max-width: 480px) { 
+    .img_books{
+       height: 100px;
+       width: 100px; 
+    }
+    .trending_books{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        height:auto;
+        color: white;
+        margin-left: 0px;
+        margin: 10px;
+    }
+    .trending_books img{
+        border-radius: 10px;
+    }
+    .carticon{
+        margin-left:1px;
+        color: black;
+        
+    }
+    .trending_icons{
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        margin-top: 5px;
+        margin-right: 30px;
+    }
+    .book_content{
+        width: 115px;
+        height: auto;
+    }
+    .cart-btn{
+        margin: 5px;
+    }
+    
+    .book_img{
+        display: flex;
+        flex-direction: column;
+    }
+    .book_img img{
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+    .book_tit1{
+        display: none;
+
+    }
+    .stars{
+        padding-top: 20px;
+    }
+    .rate-btn{
+        width: 200px;
+    }
+
+
+
+} 

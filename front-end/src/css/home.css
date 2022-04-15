@@ -1,0 +1,22 @@
+.notfound{
+    display: flex;
+    justify-content: center;
+    
+}
+.searchresults{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+}
+.login-recom{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+#navtoggle{
+    z-index: -1;
+}
+/* .searchcards{
+
+} */
+

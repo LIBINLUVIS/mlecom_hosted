@@ -1,0 +1,107 @@
+#rated_books{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    justify-content:space-between ;
+  
+}
+.loader-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.text-title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.rated_outerbox::-webkit-scrollbar{
+    display: none;
+}
+.rated_outerbox{
+    width: 800px;
+    height: 500px;
+    overflow-y: scroll;
+    padding-top: 30px;
+    padding-left:20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+}
+.book_img{
+    display: flex;
+    margin-left: 15px;
+  
+    
+}
+.book_tit{
+    font-size:20px;
+    font-weight: bold;
+    
+}
+.book_tit1{
+    font-size:20px;
+    font-weight: bold;
+    
+}
+.book_details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+.book_horiz{
+    display: flex;
+}
+.not_rated{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 30px;
+    
+}
+.head_tit{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.rated_outerbox_rate{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .rated_outerbox_rate{
+        width: 340px;
+        height: 500px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    }
+    .rated_outerbox{
+        width: 350px;
+        height: 700px;
+        color:black;
+    }
+    .book_img{
+        margin: 10px;
+        margin-top: 10px;
+    }
+}

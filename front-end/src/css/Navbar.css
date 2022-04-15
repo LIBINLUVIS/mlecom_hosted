@@ -1,0 +1,11 @@
+@media screen and (max-width: 480px) { 
+    .logo-head{
+        height: 0px;
+        width: 0px;
+        padding-top: 0px;
+    } 
+    .style{
+        margin: 0px;
+    } 
+}
+/* 480 and 480  lessthan */
